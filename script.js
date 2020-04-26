@@ -40,7 +40,6 @@ function generatePassword() {
 
 // Write password to the #password input
 function writePassword() {
-  console.log("Ive been called");
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
